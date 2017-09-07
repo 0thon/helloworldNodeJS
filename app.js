@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var cfenv = require('cfenv');
+var cfenv = require('Os');
 var watsonAPI = require('./src/model/watsonApi.js');
 var app = express();
 
